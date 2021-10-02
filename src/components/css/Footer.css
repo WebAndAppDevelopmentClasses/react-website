@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #fff;
+}
+@media(max-width: 449px){
+    .footer{
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    }
+  }
