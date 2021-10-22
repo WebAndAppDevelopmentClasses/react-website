@@ -1,9 +1,12 @@
 import React from 'react'
 import './css/Navbar.css'
 import { Link } from "react-router-dom";
+import  LoginButton  from "./LoginButton";
+import  LogoutButton  from "./LogoutButton";
 
 function Navbar() {
     return (
+
         <div>
             <header className="header">
                 <nav className="navbar" id="navbar">
@@ -21,6 +24,9 @@ function Navbar() {
                         <li className="nav-item">
                             <a href="https://www.youtube.com/channel/UCAp1VvnTMHTGmNTf-lrBqmg" target="_webandapp" className="nav-link">Visit Channel</a>
                         </li>
+                        
+                            <LoginButton/>
+                            <LogoutButton/>
                     </ul>
                     <div className="hamburger">
                         <span className="bar"></span>
