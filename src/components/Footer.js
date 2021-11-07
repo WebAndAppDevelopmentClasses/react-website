@@ -4,7 +4,7 @@ import './css/Footer.css'
 function Footer() {
     return (
         <>
-        <hr/>
+        <hr className="text-white"/>
         <div className="footer">
         © Copyright 2021 Web And App Development Classes - All Rights Reserved
       </div>

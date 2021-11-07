@@ -10,7 +10,7 @@ function Navbar() {
         <div>
             <header className="header">
                 <nav className="navbar" id="navbar">
-                    <a href="/" className="nav-logo">Web And App Development Classes</a>
+                    <Link to="/" className="nav-logo">Web And App Development Classes</Link>
                     <ul className="nav-menu">
                         <Link to='/'>
                             <li className="nav-item nav-link">Home</li>
@@ -21,6 +21,9 @@ function Navbar() {
                         <Link to='/services'>
                         <li className="nav-item nav-link">Services</li>
                         </Link>
+                        {/* <Link to='/blog'>
+                        <li className="nav-item nav-link">Blog</li>
+                        </Link> */}
                         <li className="nav-item">
                             <a href="https://www.youtube.com/channel/UCAp1VvnTMHTGmNTf-lrBqmg" target="_webandapp" className="nav-link">Visit Channel</a>
                         </li>
